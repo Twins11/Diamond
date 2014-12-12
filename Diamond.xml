@@ -3,7 +3,7 @@
     <mutation elseif="1"></mutation>
     <value name="IF0">
       <block type="sensor_object" id="2">
-        <field name="OBJECT">RIGHTSIDE</field>
+        <field name="OBJECT">LEFTFRONT</field>
       </block>
     </value>
     <statement name="DO0">
