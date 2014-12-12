@@ -25,7 +25,7 @@
                     </value>
                     <next>
                       <block type="multimedia_playwav" id="270">
-                        <field name="WAV">beep beep</field>
+                        <field name="WAV">vroom vroom</field>
                       </block>
                     </next>
                   </block>
