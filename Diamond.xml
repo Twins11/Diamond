@@ -22,7 +22,7 @@
             </value>
             <next>
               <block type="oled_drawtext" id="30">
-                <field name="TEXT">Ferrets Rock!!</field>
+                <field name="TEXT">Sorry Abdul!!</field>
               </block>
             </next>
           </block>
