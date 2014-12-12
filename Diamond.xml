@@ -24,8 +24,16 @@
                       </block>
                     </value>
                     <next>
-                      <block type="multimedia_playwav" id="270">
-                        <field name="WAV">vroom vroom</field>
+                      <block type="movement_stutter" id="284">
+                        <next>
+                          <block type="robot_delay" id="296" inline="true">
+                            <value name="DELAY">
+                              <block type="math_number" id="303">
+                                <field name="NUM">5000</field>
+                              </block>
+                            </value>
+                          </block>
+                        </next>
                       </block>
                     </next>
                   </block>
