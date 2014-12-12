@@ -97,7 +97,7 @@
                                                                     </value>
                                                                     <next>
                                                                       <block type="oled_drawtext" id="30">
-                                                                        <field name="TEXT">Hello Khalid!!</field>
+                                                                        <field name="TEXT">Hi I'm Bmax!!</field>
                                                                       </block>
                                                                     </next>
                                                                   </block>
