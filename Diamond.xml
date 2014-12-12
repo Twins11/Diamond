@@ -2,7 +2,7 @@
   <block type="controls_if" id="1" inline="false" x="28" y="-6">
     <value name="IF0">
       <block type="sensor_object" id="2">
-        <field name="OBJECT">REAR</field>
+        <field name="OBJECT">RIGHTSIDE</field>
       </block>
     </value>
     <statement name="DO0">
