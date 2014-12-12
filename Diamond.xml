@@ -41,6 +41,25 @@
                                         <field name="NUM">3000</field>
                                       </block>
                                     </value>
+                                    <next>
+                                      <block type="led_select" id="49" inline="true">
+                                        <field name="ACTION">ON</field>
+                                        <value name="LED">
+                                          <block type="math_number" id="56">
+                                            <field name="NUM">0</field>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="robot_delay" id="58" inline="true">
+                                            <value name="DELAY">
+                                              <block type="math_number" id="65">
+                                                <field name="NUM">3000</field>
+                                              </block>
+                                            </value>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
                                   </block>
                                 </next>
                               </block>
