@@ -1,11 +1,34 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_if" id="1" inline="false" x="-395" y="-431">
+  <block type="controls_if" id="1" inline="false" x="-377" y="-600">
     <mutation else="1"></mutation>
     <value name="IF0">
       <block type="sensor_object" id="2">
         <field name="OBJECT">RIGHTSIDE</field>
       </block>
     </value>
+    <statement name="DO0">
+      <block type="oled_cleardisplay" id="26">
+        <next>
+          <block type="oled_setcursor" id="27" inline="true">
+            <value name="STARTX">
+              <block type="math_number" id="28">
+                <field name="NUM">10</field>
+              </block>
+            </value>
+            <value name="STARTY">
+              <block type="math_number" id="29">
+                <field name="NUM">10</field>
+              </block>
+            </value>
+            <next>
+              <block type="oled_drawtext" id="30">
+                <field name="TEXT">Ferrets Rock!!</field>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
     <statement name="ELSE">
       <block type="movement_forward" id="3">
         <next>
@@ -82,29 +105,6 @@
                                                                 <field name="NUM">3000</field>
                                                               </block>
                                                             </value>
-                                                            <next>
-                                                              <block type="oled_cleardisplay" id="26">
-                                                                <next>
-                                                                  <block type="oled_setcursor" id="27" inline="true">
-                                                                    <value name="STARTX">
-                                                                      <block type="math_number" id="28">
-                                                                        <field name="NUM">10</field>
-                                                                      </block>
-                                                                    </value>
-                                                                    <value name="STARTY">
-                                                                      <block type="math_number" id="29">
-                                                                        <field name="NUM">10</field>
-                                                                      </block>
-                                                                    </value>
-                                                                    <next>
-                                                                      <block type="oled_drawtext" id="30">
-                                                                        <field name="TEXT">Ferrets Rock!!</field>
-                                                                      </block>
-                                                                    </next>
-                                                                  </block>
-                                                                </next>
-                                                              </block>
-                                                            </next>
                                                           </block>
                                                         </next>
                                                       </block>
