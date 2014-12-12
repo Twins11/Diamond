@@ -7,7 +7,7 @@
     </value>
     <statement name="DO0">
       <block type="controls_whileUntil" id="3" inline="false">
-        <field name="MODE">WHILE</field>
+        <field name="MODE">UNTIL</field>
         <value name="NUMBER">
           <block type="logic_compare" id="4" inline="true">
             <field name="OP">LT</field>
