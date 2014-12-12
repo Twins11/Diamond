@@ -23,6 +23,11 @@
                         <field name="NUM">5000</field>
                       </block>
                     </value>
+                    <next>
+                      <block type="multimedia_playwav" id="270">
+                        <field name="WAV">beep beep</field>
+                      </block>
+                    </next>
                   </block>
                 </next>
               </block>
