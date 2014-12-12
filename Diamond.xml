@@ -1,6 +1,6 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="controls_if" id="1" inline="false" x="-377" y="-600">
-    <mutation else="1"></mutation>
+    <mutation elseif="1"></mutation>
     <value name="IF0">
       <block type="sensor_object" id="2">
         <field name="OBJECT">RIGHTSIDE</field>
@@ -29,7 +29,12 @@
         </next>
       </block>
     </statement>
-    <statement name="ELSE">
+    <value name="IF1">
+      <block type="sensor_object" id="47">
+        <field name="OBJECT">RIGHTFRONT</field>
+      </block>
+    </value>
+    <statement name="DO1">
       <block type="movement_forward" id="3">
         <next>
           <block type="robot_delay" id="4" inline="true">
