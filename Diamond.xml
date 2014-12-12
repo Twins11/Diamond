@@ -118,6 +118,11 @@
                                                                             <field name="NUM">5000</field>
                                                                           </block>
                                                                         </value>
+                                                                        <next>
+                                                                          <block type="oled_drawtext" id="115">
+                                                                            <field name="TEXT">Ferrets Rock!!</field>
+                                                                          </block>
+                                                                        </next>
                                                                       </block>
                                                                     </next>
                                                                   </block>
