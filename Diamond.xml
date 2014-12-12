@@ -56,6 +56,29 @@
                                                 <field name="NUM">3000</field>
                                               </block>
                                             </value>
+                                            <next>
+                                              <block type="movement_leftmotor" id="75" inline="true">
+                                                <value name="MOVLEFT">
+                                                  <block type="math_number" id="82">
+                                                    <field name="NUM">2000</field>
+                                                  </block>
+                                                </value>
+                                                <next>
+                                                  <block type="robot_delay" id="84" inline="true">
+                                                    <value name="DELAY">
+                                                      <block type="math_number" id="91">
+                                                        <field name="NUM">3000</field>
+                                                      </block>
+                                                    </value>
+                                                    <next>
+                                                      <block type="oled_color" id="100">
+                                                        <field name="OBJECT">BLACK</field>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
                                           </block>
                                         </next>
                                       </block>
