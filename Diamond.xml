@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_if" id="1" inline="false" x="28" y="-6">
+  <block type="controls_if" id="1" inline="false" x="33" y="25">
     <value name="IF0">
       <block type="sensor_object" id="2">
         <field name="OBJECT">RIGHTSIDE</field>
@@ -99,6 +99,29 @@
                                                                     <field name="NUM">3000</field>
                                                                   </block>
                                                                 </value>
+                                                                <next>
+                                                                  <block type="movement_setmotors" id="49" inline="true">
+                                                                    <value name="BOTHMOVLEFT">
+                                                                      <block type="math_number" id="56">
+                                                                        <field name="NUM">4</field>
+                                                                      </block>
+                                                                    </value>
+                                                                    <value name="BOTHMOVRIGHT">
+                                                                      <block type="math_number" id="63">
+                                                                        <field name="NUM">4</field>
+                                                                      </block>
+                                                                    </value>
+                                                                    <next>
+                                                                      <block type="robot_delay" id="65" inline="true">
+                                                                        <value name="DELAY">
+                                                                          <block type="math_number" id="72">
+                                                                            <field name="NUM">5000</field>
+                                                                          </block>
+                                                                        </value>
+                                                                      </block>
+                                                                    </next>
+                                                                  </block>
+                                                                </next>
                                                               </block>
                                                             </next>
                                                           </block>
